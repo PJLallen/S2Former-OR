@@ -1,5 +1,5 @@
-# S$^2$Former-OR
-![S^2Former-OR](assets/framework.png)
+# $S^2$Former-OR
+![$S^2$Former-OR](assets/framework.png)
 
 Official Implementation of "CalibNet: Dual-branch Cross-modal Calibration for RGB-D Salient Instance Segmentation"
 
