@@ -1,5 +1,5 @@
 # S<sup>2</sup>Former-OR
-![S<sup>2</sup>Former-OR](assets/framework.pdf)
+![S<sup>2</sup>Former-OR](assets/framework.png)
 
 Official Implementation of "S<sup>2</sup>Former-OR: Single-Stage bi-modal Transformer for Scene Graph Generation in OR"
 
