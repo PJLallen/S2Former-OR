@@ -1,6 +1,6 @@
 # S<sup>2</sup>Former-OR
-![$S^2$Former-OR](assets/framework.png)
+![S<sup>2</sup>Former-OR](assets/framework.png)
 
-Official Implementation of "CalibNet: Dual-branch Cross-modal Calibration for RGB-D Salient Instance Segmentation"
+Official Implementation of "S<sup>2</sup>Former-OR: Single-Stage bi-modal Transformer for Scene Graph Generation in OR"
 
 The code will be made public after the paper is accepted...
