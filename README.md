@@ -20,7 +20,7 @@ Welcome to the official repository for our paper: "S<sup>2</sup>Former-OR: Singl
 The code is tested on CUDA 11.1 and pytorch 1.9.0, change the versions below to your desired ones.
 
 ```shell
-conda create -n STIP python=3.7
+conda create -n sformer python=3.7
 conda install pytorch==1.9.0 torchvision cudatoolkit=11.1 -c pytorch -c nvidia -y
 conda install cython scipy
 pip install pycocotools
@@ -79,7 +79,7 @@ Pretrained DETR weights: [OneDrive](https://gocuhk-my.sharepoint.com/:u:/g/perso
 ### Train
 
 ```shell
-python -m torch.distributed.launch --nproc_per_node={num_gpus} --use_env STIP_main.py --validate \
+python -m torch.distributed.launch --nproc_per_node={num_gpus} --use_env main.py --validate \
 --num_hoi_queries 100 --batch_size 2 --lr 5e-5 --hoi_aux_loss --dataset_file or \
 --detr_weights {pretrained DETR path}  --output_dir {output_path} --group_name {output_group_name} \
 --HOIDet --run_name {output_run_name} --epochs 100 --ann_path /data/4dor/ --img_folder /data/4dor/images \
@@ -90,7 +90,7 @@ python -m torch.distributed.launch --nproc_per_node={num_gpus} --use_env STIP_ma
 ### Inference
 
 ```shell
-python -m torch.distributed.launch --nproc_per_node={num_gpus} --use_env STIP_main.py --validate \
+python -m torch.distributed.launch --nproc_per_node={num_gpus} --use_env main.py --validate \
 --num_hoi_queries 100 --batch_size 2 --lr 5e-5 --hoi_aux_loss --dataset_file or \
 --detr_weights {pretrained DETR path}  --output_dir {output_path} --group_name {output_group_name} \
 --HOIDet --run_name {output_run_name} --epochs 100 --ann_path /data/4dor/ --img_folder /data/4dor/images \
