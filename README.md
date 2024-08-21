@@ -4,13 +4,14 @@ Welcome to the official repository for our paper: "S<sup>2</sup>Former-OR: Singl
 ![S<sup>2</sup>Former-OR](/Framework.png)
 
 # S<sup>2</sup>Former-OR: Single-Stage bi-modal Transformer for Scene Graph Generation in OR
-> [Paper](https://arxiv.org/pdf/2404.09231)
+> [Paper](https://arxiv.org/pdf/2402.14461)
 > 
 > Authors:
-> [Diandian Guo](https://scholar.google.com/citations?user=yXycwhIAAAAJ&hl=en), 
-> [Manxi Lin](https://scholar.google.com/citations?user=RApnUsEAAAAJ&hl=da),
 > [Jialun Pei](https://scholar.google.com/citations?user=1lPivLsAAAAJ&hl=en),
-> [He Tang](https://scholar.google.com.hk/citations?user=70XLFUsAAAAJ&hl=zh-CN), 
+> [Diandian Guo](https://scholar.google.com/citations?user=yXycwhIAAAAJ&hl=en),
+> [Jingyang Zhang](https://scholar.google.com/citations?user=C-M2ufUAAAAJ&hl=zh-CN),
+> [Manxi Lin](https://scholar.google.com/citations?user=RApnUsEAAAAJ&hl=da),
+> [Yueming Jin](https://yuemingjin.github.io/),
 > [Pheng-Ann Heng](https://scholar.google.com/citations?user=OFdytjoAAAAJ&hl=en).
 >
 
