@@ -59,7 +59,7 @@ Then refer to https://github.com/erikwijmans/Pointnet2_PyTorch/tree/master for P
 Download the Processed 4D-OR provided above. The data folder should be like this:
 
 ```shell
-TriTemp-OR/data/: 
+S2Former-OR/data/: 
               /images/: unzip 4d_or_images_multiview_reltrformat.zip
               /points/: unzip points.zip
               /infer/: unzip infer.zip
