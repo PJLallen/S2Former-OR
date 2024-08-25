@@ -1,9 +1,9 @@
-# S<sup>2</sup>Former-OR
+# S<sup>2</sup>Former-OR: Single-Stage bi-modal Transformer for Scene Graph Generation in OR
 Welcome to the official repository for our paper: "S<sup>2</sup>Former-OR: Single-Stage bi-modal Transformer for Scene Graph Generation in OR".
 
 ![S<sup>2</sup>Former-OR](/Framework.png)
 
-# S<sup>2</sup>Former-OR: Single-Stage bi-modal Transformer for Scene Graph Generation in OR
+
 > [Paper](https://arxiv.org/pdf/2402.14461)
 > 
 > Authors:
