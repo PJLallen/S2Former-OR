@@ -83,8 +83,8 @@ python -m torch.distributed.launch --nproc_per_node={num_gpus} --use_env main.py
 --num_hoi_queries 100 --batch_size 2 --lr 5e-5 --hoi_aux_loss --dataset_file or \
 --detr_weights {pretrained DETR path}  --output_dir {output_path} --group_name {output_group_name} \
 --HOIDet --run_name {output_run_name} --epochs 100 --ann_path /data/4dor/ --img_folder /data/4dor/images \
---num_queries 20 --use_tricks_val --use_relation_tgt_mask --add_none --train_detr --use_pointsfusion \
---use_multiview_fusion --use_multiviewfusion_last_view2
+--num_queries 20 --use_relation_tgt_mask --train_detr --use_pointsfusion \
+--use_multiviewfusion_last_view2
 ```
 
 ### Inference
@@ -94,8 +94,8 @@ python -m torch.distributed.launch --nproc_per_node={num_gpus} --use_env main.py
 --num_hoi_queries 100 --batch_size 2 --lr 5e-5 --hoi_aux_loss --dataset_file or \
 --detr_weights {pretrained DETR path}  --output_dir {output_path} --group_name {output_group_name} \
 --HOIDet --run_name {output_run_name} --epochs 100 --ann_path /data/4dor/ --img_folder /data/4dor/images \
---num_queries 20 --use_tricks_val --use_relation_tgt_mask --add_none --use_pointsfusion \
---use_multiview_fusion --use_multiviewfusion_last_view2 --resume {MODEL_WEIGHTS} --infer
+--num_queries 20 --use_relation_tgt_mask --use_pointsfusion \
+--use_multiviewfusion_last_view2 --resume {MODEL_WEIGHTS} --infer
 ```
 
 Please replace `{MODEL_WEIGHTS}` to the pre-trained weights
