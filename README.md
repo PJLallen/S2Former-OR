@@ -116,8 +116,3 @@ If this helps you, please cite this work:
 
 ```
 ```
-
-
-
-## Coming Soon!
-The code and reprocessed labels will be made public after the paper is accepted...
