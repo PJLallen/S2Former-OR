@@ -100,11 +100,6 @@ python -m torch.distributed.launch --nproc_per_node={num_gpus} --use_env main.py
 
 Please replace `{MODEL_WEIGHTS}` to the pre-trained weights
 
-### Visualization
-
-
-
-
 ## Acknowledgement
 
 This work is based on:
