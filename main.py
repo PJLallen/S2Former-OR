@@ -136,6 +136,7 @@ def main(args):
 
     if args.eval:
         total_res = or_evaluate(model, postprocessors, data_loader_val, device, args=args, thr=0)
+        return
 
     # Training starts here!
     start_time = time.time()
