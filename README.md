@@ -4,7 +4,7 @@ Welcome to the official repository for our paper: "[S<sup>2</sup>Former-OR: Sing
 ![S<sup>2</sup>Former-OR](/Framework.png)
 
 
-> [Final Version](https://arxiv.org/pdf/2402.14461)
+> [[Final Version]](https://arxiv.org/pdf/2402.14461)
 > 
 > Authors:
 > [Jialun Pei](https://scholar.google.com/citations?user=1lPivLsAAAAJ&hl=en),
