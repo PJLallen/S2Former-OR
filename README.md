@@ -1,10 +1,10 @@
-# S<sup>2</sup>Former-OR: Single-Stage bi-modal Transformer for Scene Graph Generation in OR
-Welcome to the official repository for our paper: "S<sup>2</sup>Former-OR: Single-Stage bi-modal Transformer for Scene Graph Generation in OR".
+# [TMI'24] S<sup>2</sup>Former-OR: Single-Stage bi-modal Transformer for Scene Graph Generation in OR
+Welcome to the official repository for our paper: "[S<sup>2</sup>Former-OR: Single-Stage bi-modal Transformer for Scene Graph Generation in OR](https://arxiv.org/pdf/2402.14461)".
 
 ![S<sup>2</sup>Former-OR](/Framework.png)
 
 
-> [Paper](https://arxiv.org/pdf/2402.14461)
+> [Final Version](https://arxiv.org/pdf/2402.14461)
 > 
 > Authors:
 > [Jialun Pei](https://scholar.google.com/citations?user=1lPivLsAAAAJ&hl=en),
@@ -46,7 +46,7 @@ Then refer to https://github.com/erikwijmans/Pointnet2_PyTorch/tree/master for P
 
 
 
-## Dataset preparation
+## 🔧 Dataset preparation
 
 ### Download the datasets
 
@@ -54,7 +54,7 @@ Then refer to https://github.com/erikwijmans/Pointnet2_PyTorch/tree/master for P
 
 - **Processed 4D-OR**: [OneDrive](https://gocuhk-my.sharepoint.com/:f:/g/personal/jialunpei_cuhk_edu_hk/Es4MUdHVUE1LpOJn2vHQFKMBNGfr2O0LT0xLG8HLMFVWEg?e=ovg5RL)
 
-### Datasets for training
+### 📈 Datasets for training
 
 Download the Processed 4D-OR provided above. The data folder should be like this:
 
@@ -69,12 +69,12 @@ S2Former-OR/data/:
               /rel.json: from reltr_annotations_8.3.zip
 ```
 
-## Pre-trained models
+## 🚀 Pre-trained models
 
 Pretrained DETR weights: [OneDrive](https://gocuhk-my.sharepoint.com/:u:/g/personal/jialunpei_cuhk_edu_hk/EcQvVowPUVBItg8tIM1L7SMBXGQu4xQXTSrZNOcNSDHIwg?e=pFkhQx).
 
 
-## Usage
+## ⚙️ Usage
 
 ### Train
 
@@ -110,9 +110,16 @@ This work is based on:
 
 Thanks them for their great work!
 
-## Citation
+## 📚 Citation
 
 If this helps you, please cite this work:
 
-```
+```bibtex
+@article{pei2024ssg,
+  title={S\^{} 2Former-OR: Single-Stage Bimodal Transformer for Scene Graph Generation in OR},
+  author={Pei, Jialun and Guo, Diandian and Zhang, Jingyang and Lin, Manxi and Jin, Yueming and Heng, Pheng-Ann},
+  journal={IEEE Transactions on Medical Imaging},
+  year={2024},
+  organization={IEEE}
+}
 ```
