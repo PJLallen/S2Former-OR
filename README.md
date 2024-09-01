@@ -115,7 +115,7 @@ Thanks them for their great work!
 If this helps you, please cite this work:
 
 ```bibtex
-@article{pei2024ssg,
+@article{pei2024sgg,
   title={S\^{} 2Former-OR: Single-Stage Bimodal Transformer for Scene Graph Generation in OR},
   author={Pei, Jialun and Guo, Diandian and Zhang, Jingyang and Lin, Manxi and Jin, Yueming and Heng, Pheng-Ann},
   journal={IEEE Transactions on Medical Imaging},
