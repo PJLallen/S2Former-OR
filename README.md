@@ -4,7 +4,7 @@ Welcome to the official repository for our paper: "[S<sup>2</sup>Former-OR: Sing
 ![S<sup>2</sup>Former-OR](/Framework.png)
 
 
-> [[Paper]](https://arxiv.org/pdf/2402.14461); [[Official Version]](https://ieeexplore.ieee.org/document/10637910)
+> [[Paper]](https://arxiv.org/pdf/2402.14461); [[Official Version]](https://ieeexplore.ieee.org/document/10637910), [[Project Page]](https://rascalgdd.github.io/ORSGG/)
 > 
 > Authors:
 > [Jialun Pei](https://scholar.google.com/citations?user=1lPivLsAAAAJ&hl=en),
